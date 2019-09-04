@@ -1,0 +1,88 @@
+body{
+        background-image: url('https://cdn.pixabay.com/photo/2015/08/18/01/54/car-893224_960_720.jpg');
+    
+        /* background-color:cyan; */
+        background-size:cover;
+        background-repeat: no-repeat;
+        /* height: 650px; */
+        font-family:verdana;
+        
+        }
+    
+    h1{
+         color:cyan;
+         /* text-decoration:underline; */
+         text-align:center;
+         font-size: 50px;
+         font-style:oblique;
+         border:1px solid white;
+         padding: 12px;
+         margin-right:250px;  
+         }
+    
+     h2{
+        color:cyan;
+        font-style:oblique;
+        font-size: 40px;
+        text-align: center;
+        z-index: inherit 5%;
+     }
+    
+     h3{
+        font-style:sans-serif;
+        text-decoration:none;
+        color:cyan;
+        border: 1px solid white;
+        text-align: center;
+        padding: 12px;
+        }
+    
+     h4{
+        font-family:sans-serif;
+        text-decoration:none;
+        color:cyan;
+        border: 1px solid white;
+        padding:12px;
+         }
+                        
+         nav>ul{
+            text-align:right;
+            margin-right:auto;
+            margin-left:auto;
+          }
+    
+          ul>li{
+            display:inline-block;
+          }
+    
+          ul>li>a{
+            text-transform:uppercase;
+            text-decoration:none;
+            font-weight:bold;
+            padding:5px;
+            color: white;
+            font-size:20px;
+          }
+    
+          ul>li>a:hover{
+            box-shadow:0,0,0,0.8em #5E5CCA;
+            box-sizing:content-box;
+            background-color:aqua  ;
+            color:black;
+          }
+    
+          .logo{
+            margin-left: 40%; 
+            margin-top: 5%; 
+            margin-bottom: 5%;
+          }
+          
+          p{
+            font-size:30px;
+            color:whitesmoke;
+          }
+
+          .Services{
+            z-index: inherit 5%;
+            background-color: rgba(45,43,54,0.7);
+          }
